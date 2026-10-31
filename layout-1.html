@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Solok</a></li>
+      <li><a href="#">Koto Baru</a></li>
+      <li><a href="#">Cupak</a></li>
+      <!DOCTYPE html>
+      <html>
+      <body>
+      
+      <h2></h2>
+      <img src="1793424945818.jpg" alt="Trulli" width="100" height="100">
+      
+      </body>
+      </html>
+    </ul>
+  </nav>
+  
+  
+  <article>
+    <h1>Solok</h1>
+    <p>Perkenalkan nama saya Muhamad farhan, saya adalah mahasiswa yang berkuliah di kampus Universitas Mahaputra Muhammad Yamin.</p>
+    <p>Saya mengambil jurusan Manajemen Informatika, jabatan saya di kelas adalah sebagai ketua pada prodi tersebut.</p>
+  </article>
+</section>
+
+<footer>
+  <p><!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #000000;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>HTML Table</h2>
+    
+    <table>
+      <tr>
+        <th>Nama tempat pendidikan</th>
+        <th>Alamat</th>
+        <th>Tahun lulus</th>
+      </tr>
+      <tr>
+        <td>SDN 12 Koto Baru</td>
+        <td>Koto Baru</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>SMPN 2 Gunung Talang</td>
+        <td>Jua Gaek</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>SMAN 1 Gunung Talang</td>
+        <td>Gunung Talang</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Universitas Mahaputra Muhammad Yamin</td>
+        <td>Solok</td>
+        <td>2029</td>
+      </tr>
+      
+    </table>
+    
+    </body>
+    </html>
+    
+    </p>
+</footer>
+
+</body>
+</html>
+
